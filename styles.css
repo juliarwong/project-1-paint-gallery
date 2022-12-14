@@ -77,3 +77,40 @@ header {
 .headerNav li {
     margin-right: 30px;
 }
+
+.About {
+    min-height: 40vh;
+    background-color: #ffe9e9;
+    padding: 50px 0;
+}
+
+.newProduct {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.newProduct img {
+    max-width: 30%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 40px;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutText h2 {
+    margin: 0px;
+}
+
+.aboutText button {
+    background-color: #017ba5;
+    max-width: fit-content;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+}
+
