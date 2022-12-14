@@ -52,3 +52,28 @@ li {
 img {
     max-width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: #201e21;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url(./assets/paint1.png);
+}
+
+.headerNav {
+    display: flex;
+    padding: 0;
+}
+
+.headerNav li {
+    margin-right: 30px;
+}
