@@ -114,3 +114,21 @@ header {
     color: white;
 }
 
+.latestExhibition {
+    background-color: #f7dae8;
+    padding: 100px 0;
+}
+
+.latestExhibition h2 {
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    padding: 0 15px;
+}
