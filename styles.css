@@ -54,6 +54,9 @@ img {
 }
 
 a {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 45px;
+    line-height: 29px;
     text-decoration: none;
     color: #201e21;
 }
@@ -166,4 +169,32 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.blog h2 {
+    margin: 0;
+}
+
+.blog1, .blog2 {
+    background-color: #f7dae8;
+    display: flex;
+}
+
+.blog1 img, .blog2 img {
+    min-width: 50%;
+}
+
+.blog1Text, .blog2Text {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blogButton  {
+    background-color: #a7059b;
+    color: white;
+    width: fit-content;
+    padding: 15px 20px;
+    margin-top: 10px;
 }
