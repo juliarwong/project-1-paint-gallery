@@ -80,6 +80,11 @@ header {
     background-image: url(./assets/paint1.png);
 }
 
+ul.headerNav {
+    margin: 0;
+    padding-top: 10px;
+}
+
 .headerNav {
     display: flex;
     padding: 0;
@@ -117,7 +122,7 @@ header {
     margin: 0px;
 }
 
-.aboutText button {
+.aboutButton {
     background-color: #017ba5;
     max-width: fit-content;
     padding: 10px 15px;
@@ -140,6 +145,10 @@ header {
     display: flex;
 }
 
+ul.gallery {
+    padding: 0;
+}
+
 .gallery img {
     padding: 0 15px;
 }
@@ -154,7 +163,7 @@ header {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    height: 40vh;
+    min-height: 40vh;
 }
 
 .categoryIcons img {
@@ -273,4 +282,106 @@ button[type="submit"] {
 
 .contact h4 {
     margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .images {
+        width: calc(50% - 10px);
+    }
+
+    header {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .newProduct {
+        flex-direction: column;
+    }
+
+    .newProduct img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .newProduct h2 {
+        padding: 10px 0;
+        line-height: 60px;
+    }
+
+    .aboutButton {
+        margin: 0 auto;
+    }
+
+    .gallery, .categoryIcons {
+        flex-direction: column;
+    }
+
+    .categoryIcons {
+        padding: 40px 0;
+    }
+
+    .blog1, .blog2 {
+        flex-direction: column;
+    }
+
+    .blog1Text, .blog2Text {
+        text-align: center;
+    }
+
+    /* Attempting to position the image above the text */
+    /* .blog1 {
+        position: relative;
+    }
+
+    .blog1 img {
+        position: absolute;
+        top: 0;
+    } */
+
+    .blogButton {
+        margin: 0 auto;
+    }
+
+    .footerNav {
+        flex-direction: column;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    ul.footerMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0;
+        /* Attempt to position above header */
+        /* position: absolute;
+        top: 0; */
+    }
+
+    .cta p {
+        text-align: center;
+    }
+
+    .ctaForm {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input[type="text"]::placeholder {
+        text-align: center;
+    }
+
+    button[type="submit"] {
+        max-width: fit-content;
+        margin: 15px auto;
+    }
+
+    .contact {
+        text-align: center;
+        margin-top: 10px;
+    }
 }
