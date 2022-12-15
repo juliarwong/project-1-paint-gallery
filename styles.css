@@ -10,6 +10,7 @@ h1 {
     font-family: 'East Sea Dokdo', cursive;
     font-size: 122px;
     line-height: 94.3px;
+    margin: 0;
 }
 
 h2 {
@@ -80,9 +81,20 @@ header {
     background-image: url(./assets/paint1.png);
 }
 
+.title {
+    /* display: flex; */
+    margin-top: 200px;
+}
+
 ul.headerNav {
     margin: 0;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+ul.headerNav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
 }
 
 .headerNav {
