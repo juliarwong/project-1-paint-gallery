@@ -132,3 +132,38 @@ header {
 .gallery img {
     padding: 0 15px;
 }
+
+.icons {
+    background-color: #ffe9e9;
+}
+
+.categoryIcons {
+    color: #0178A5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    height: 40vh;
+}
+
+.categoryIcons img {
+    color: #0178A5;
+    max-width: 30%;
+    margin-top: 40px;
+}
+
+.categoryIcons h3 {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.item3 h3 {
+    margin-top: 0;
+}
+
+.item1 a, .item2 a, .item3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
